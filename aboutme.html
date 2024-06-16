@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: verdana;
+            background-image: url(img/ZON.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+
+        .flex-container .box {
+            background-color: #f1f1f1;
+            border: 2px solid green;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            line-height: 75px;
+            font-size: 15px;
+        }
+
+        div.gallery {
+            margin: auto;
+            border: 1px solid #ccc;
+            width: 35%;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            background-color: #f1f1f1;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+    <title>aboutme</title>
+</head>
+
+<body>
+    <a href="index.html" target="_self" title="This link takes you back to the homepage">Back</a>
+    <div class="flex-container">
+        <div class="box" style="line-height:25px">
+            <h1>About me!</h1>
+        </div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="img/Wenen.jpg">
+            <img src="img/Wenen.jpg" alt="Me in Vienna" width="600" height="400">
+        </a>
+        <div class="desc">
+            My name is Bjarne Smink,
+            I am a first year dutch CreaTe student, studying at the University of Twente. I currently live in Almelo,
+            the Netherlands, where I also went to high-school. Here I studied atheneum, and as an extra I followed
+            Technasium. At technasium I learned how to work together on real-life technical problems, which is similar
+            to CreaTe, some of the projects I worked on can be found under the project page. I currently work as a
+            waiter in a restaurant, which I enjoy, and like to keep on doing. I like to travel the world and take
+            pictures of my adventures, which you can find under my hobbies page. I think of myself as an honest,
+            stubborn person that sometimes takes the easy way out, however I like to expand my horizons and
+            experience/learn new things.
+            Want to contact me? <a href="mailto:b.b.smink@student.utwente.nl">Send email</a>
+        </div>
+    </div>
+</body>
+
+</html>

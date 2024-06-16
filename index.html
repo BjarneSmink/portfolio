@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Digital portfolio Bjarne Smink</title>
+    <style>
+        body {
+            font-family: verdana;
+            background-image: url(img/ZON.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+
+        .flex-container .box {
+            background-color: #f1f1f1;
+            border: 2px solid green;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            line-height: 75px;
+            font-size: 15px;
+
+        }
+
+        a.one:link,
+        a.one:visited {
+            background: rgba(76, 175, 80, 0.1);
+            color: black;
+            border: 2px solid green;
+            width: 50%;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            line-height: 75px;
+        }
+
+        a.one:hover,
+        a.one:active {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="box" style="line-height:25px">
+            <img src="img/ME.jpg" alt="An image of me" style="float:right;width:50%;height:50;">
+            <h1>Get to know me!</h1>
+            <p>My name is Bjarne Smink, I was born on the 14th of january 
+                2005 in a small city called Nijkerk in the Netherlands. I’m a first 
+                year <a href="https://www.utwente.nl/en/create/" target="_blank" title="Website of CreaTe">CreaTe</a> student at the University of Twente.</p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <a class="one" href="aboutme.html" target="_self" title="This link takes you to the place where you learn more about me"><b>About me</b></a>
+        <a class="one" href="project.html" target="_self" title="This link takes you to the projects"><b>Projects</b></a>
+    </div>
+    <div class="flex-container">
+        <a class="one" href="hobbies.html" target="_self" title="This link takes you to my hobbies"><b>Hobbies</b></a>
+        <a class="one" href="doc/CV.pdf" download="CV_BjarneSmink"><b>CV</b></a>
+    </div>
+</body>
+
+</html>
